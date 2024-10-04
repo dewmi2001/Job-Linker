@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+  }
+  
+  .ql-editor {
+    font-size: 1.05rem;
+  }
+  
+.post-content p {
+  margin-bottom: 0.5rem;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: red;
+}
+
+.field-wrapper {
+  border: 1px solid #E5E7EB; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  padding: 12px; /* Add padding */
+  margin-bottom: 16px; /* Add margin between fields */
+}
+
+.field-wrapper p {
+  margin: 0; /* Remove default margin from paragraphs */
+}
